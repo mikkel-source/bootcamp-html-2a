@@ -1,0 +1,82 @@
+.aticlefooter {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  border: 2px solid red;
+  height: 25em;
+}
+.articlefooter__text {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  /* text-align: center; */
+  width: 400px;
+  font-size: 20px;
+}
+.articlefooter__socials {
+  grid-column-start: 3;
+  grid-row: 1;
+  /* border: 3px solid green; */
+  display: flex;
+  justify-content: flex-end;
+}
+.articlefooter__socialsmail {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  height: 40px;
+  width: 33%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: grey;
+  margin-right: 80px;
+}
+.articlefooter__socialsshare {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  height: 40px;
+  width: 33%;
+  background-color: darkblue;
+}
+.articlefooter__socialstweet {
+  grid-column-start: 3;
+  grid-row-start: 1;
+  height: 40px;
+  width: 33%;
+  background-color: lightblue;
+}
+.articlefooter__socialssharelink {
+  text-decoration: none;
+  color: white;
+}
+.articlefooter__abonnement {
+  border: 3px solid green;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  width: auto;
+  /* margin-right: 4em; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-direction: column; */
+}
+.articelfooter__abonnementtext {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3em;
+  width: 600px;
+  /* margin-left: auto; */
+}
+.articlefooter__abonnementbutton {
+  background-color: red;
+  margin-left: 45%;
+  border: none;
+}
+.articelfooter__abonnementclick {
+  color: white;
+  font-size: 1em;
+  text-decoration: none;
+}
+.articelfooter__abonnementguaranty {
+  text-align: center;
+  justify-content: space;
+}

@@ -1,24 +1,39 @@
 .coverPhoto {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-area: cover;
-	margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-area: cover;
+  margin: 0;
 }
 
 .coverPhoto__caption {
-	grid-column-start: 1;
-	grid-column-end: 2;
-	font-size: 0.7em;
-	color: hsl(0, 0%, 20%);
-	padding-right: 1em;
-	text-align: right;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  font-size: 0.7em;
+  color: hsl(0, 0%, 20%);
+  padding-right: 1em;
+  text-align: right;
 }
 
 .coverPhoto__image {
-	grid-column-start: 2;
-	grid-column-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 5;
 }
 
 .caption__photographer {
-	color: hsl(0, 0%, 16%);
+  color: hsl(0, 0%, 16%);
+}
+
+.coverPhotoextra__udland {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  padding-left: 20px;
+}
+.coverPhotoextra__date {
+  grid-column-start: 2;
+  grid-row: 2;
+}
+.coverPhotoextra__commentary {
+  grid-column-start: 3;
+  grid-row-start: 2;
+  padding-left: 200px;
 }
